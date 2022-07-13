@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML練習:Form , Input</title>
+</head>
+<body>
+    <h1>HTML練習:Form , Input</h1>
+    <form action="" method="get">
+        <label for="myname">姓名</label>
+        <input type="text" name="name" id="myname">
+        <br>
+        
+        <input type="radio" name="gender" value="男">男
+        <input type="radio" name="gender" value="女">女
+        <input type="radio" name="gender" value="其他">其他
+        <br>
+
+        <label for="myphone">電話</label>
+        <input type="text" name="phone" id="myphone" >
+        <br>
+        
+        <label for="myage">年齡</label>
+        <input type="number" name="age" id="myage" min="0" max="150">
+        <br>
+
+        <label for="mypassword">密碼</label>
+        <input type="password" name="password" id="mypassword" required maxlength="10" minlength="6">
+        <br>
+
+        <input type="checkbox" name="rule" required>使用者詳細規章
+        <br>
+        <button>提交表單</button>
+    </form>
+    <br>
+    <a href="./index.html">返回首頁</a>
+</body>
+</html>
