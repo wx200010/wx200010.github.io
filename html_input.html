@@ -7,7 +7,10 @@
     <title>HTML練習:Form , Input</title>
 </head>
 <body>
-    <h1>HTML練習:Form , Input</h1>
+    <!-- 第一部分： 各種Input-->
+    <h1>HTML練習:Input</h1>
+    <h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">MDN Input教學</a></h2>
+
     <form action="" method="get">
         <label for="myname">姓名</label>
         <input type="text" name="name" id="myname">
@@ -40,6 +43,35 @@
         <button>提交表單</button>
     </form>
     <br>
+    <br>
+
+    <!-- 第二部分： Select & option-->
+    <h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select">MDN Select & option教學</a></h2>
+    <form action="" method="get">
+        <label for="myanimal">動物</label>
+        <select name="animal" id="myanimal" required>
+            <option></option>
+            <option value="dog">狗狗</option>
+            <option value="cat">貓貓</option>
+        </select>
+        <br>
+
+        <label for="mycountry">地區</label>
+        <input type="text" name="country" id="mycountry" list="countryList">
+        <datalist id="countryList">
+            <option value="台北市">台北市</option>
+            <option value="高雄市">高雄市</option>
+        </datalist>
+        <button>提交表單</button>
+    </form>
+    
+    <!-- 第三部分： Textarea-->
+    <h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea">MDN Textarea教學</a></h2>
+    <textarea name="suggest" id="mysuggest" cols="30" rows="10" placeholder="輸入你想說的東西"></textarea>
+    <br>
+
     <a href="./index.html">返回首頁</a>
+
+
 </body>
 </html>
