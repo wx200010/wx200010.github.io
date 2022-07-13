@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+header {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 1.3rem 1rem;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.headerTitle {
+  font-size: 2.3rem;
+}
+.headerText {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+nav {
+  background-color: #333333;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+nav ul li {
+  padding: 1rem 0.75rem;
+}
+
+nav ul a {
+  color: rgb(167, 167, 167);
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: all 0.4s ease;
+}
+nav ul a:hover {
+  color: white;
+}
+
+main {
+  width: 100%;
+}
+
+section.container {
+  display: flex;
+}
+
+section.top,
+section.left,
+section.right {
+  padding: 2rem;
+}
+
+p.center {
+  text-align: center;
+}
+
+section.left h2,
+section.top h2 {
+  font-weight: bold;
+}
+section.left ol {
+  padding-left: 1.5rem;
+}
+div.center {
+  display: flex;
+  margin: 1rem;
+}
+
+div.center p {
+  padding: 1rem;
+}
+.ecopage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ecopage img {
+  margin: 2rem;
+}
+
+.ecopage h3 {
+  font-weight: bold;
+}
+
+.ecopage ul {
+  padding: 0.5rem 2rem;
+}
+
+.ecopage a {
+  text-decoration: none;
+  color: rgba(1, 141, 94, 0.966);
+  transition: all 0.2s ease;
+}
+
+.ecopage a:hover {
+  background-color: gray;
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+.special {
+  text-align: center;
+  font-size: 1.5rem;
+  color: red;
+}
+
+img.author {
+  border-radius: 50%;
+  width: 13rem;
+  height: 13rem;
+  margin: auto;
+}
+
+section.right h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+section.right {
+  display: flex;
+  flex-direction: column;
+}
+
+section.right h3 {
+  padding-bottom: 0.5rem;
+}
+
+section.right iframe {
+  border-radius: 2rem;
+}
+
+.active {
+  color: white;
+  font-weight: 1.25rem;
+}
