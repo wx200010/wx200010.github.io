@@ -1,0 +1,59 @@
+
+.container1, .container2, .container3, .container4, .container5{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container1 .box{
+    height: 100px;
+    width:  350px;
+}
+
+.container2 .box{
+    height: 100px;
+    flex-grow: 1;
+}
+.container3 .box{
+    height: 100px;
+    flex-grow: 1;
+    flex-basis: 350px;
+}
+.container4 {
+    justify-content:center;
+}
+.container4 .box{
+    height: 100px;
+    width: 350px;
+}
+
+
+.box1{
+    background-color: salmon;
+}
+
+.box2{
+    background-color: rgb(250, 236, 114);
+}
+
+.box3{
+    background-color: rgb(137, 250, 114);
+}
+
+
+a{
+    display: block;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding: 20px 10px;
+    color: white;
+    background-color: rgb(155, 80, 20);
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(97, 52, 15);
+    transform: scale(1.5) translate(-20%, 20%);
+}

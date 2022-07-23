@@ -1,0 +1,21 @@
+body{
+    background-image: url("../src/css_image1.webp");   
+    
+    background-position: 0% 0%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+p{
+    color: white;
+    font-size: 4rem;
+}
+
+a{
+    color: white;
+    background-color:indianred;
+    font-size: 4rem;
+}
+a:hover{
+    background-color: black;
+}

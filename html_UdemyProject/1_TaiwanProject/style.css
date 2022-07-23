@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Noto Sans TC", sans-serif;
+}
+header h1{
+    font-size: 2.5rem;
+}
+header{
+    background-color: rgb(199, 199, 199);
+    padding: 1rem;
+}
+nav{
+    background-color: #312f2f;
+    padding: 1.4rem 1rem;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+}
+
+nav ul li a{
+    /* text-align: center; */
+    text-decoration: none;
+    padding: 1rem;
+    color: rgb(204, 204, 204);
+    font-size: 1.25rem;
+    transition: all 0.3s ease;
+}
+
+nav ul li a.active{
+    color: white;
+}
+
+
+nav ul li a:hover{
+    color: white;
+    background-color:  rgb(3, 3, 3);
+}
+
+section.container{
+    display: flex;
+}
+
+section.left{
+    padding: 2rem;
+}
+section.right{
+    padding: 2rem;
+}
+
+section.right h5{
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+section.left img{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+}
+section h3{
+    margin-bottom: 0.5rem;
+}

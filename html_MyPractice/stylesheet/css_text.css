@@ -1,0 +1,28 @@
+p{
+    font-size: 2rem;
+}
+
+p#p1{
+    text-align: center;
+}
+
+p#p2{
+    text-decoration: underline;
+}
+
+p#p3{
+    line-height: 1.2m;
+    
+    font-family: 'Noto Sans TC', sans-serif;
+}
+a{
+    font-size: 2rem;
+    color: coral;
+    text-decoration:underline;
+    cursor: cell;
+}
+a:hover{
+    
+    background-color: darkmagenta;
+    color: white;
+}
