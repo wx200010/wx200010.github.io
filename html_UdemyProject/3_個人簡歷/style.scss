@@ -1,0 +1,175 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+$color: rgb(223, 117, 69);
+img.orangebackground {
+    position: absolute;
+    z-index: -1;
+    top: -10vh;
+    right: 0px;
+    width: 50vw;
+    height: 150vh;
+}
+header{
+    nav{
+        margin-left: 2rem;
+        ul{
+            margin: 2rem 0rem ;
+            display: flex;
+            width: 65vw;
+            justify-content: space-around;
+            list-style-type: none;
+            li{
+                a{
+                    font-size: 1.65rem;
+                    text-decoration: none;
+                    color: black;
+                }
+                a.active{
+                    color: $color;;
+                }
+            }
+        }
+    }
+}
+main{
+    display: flex;
+    section.left{
+        width: 55vw;
+        h1 {
+            font-size: 4rem;
+            color: $color;
+            padding : 1rem;
+            margin-left: 1rem;
+        }
+        p {
+            padding: 1rem;
+            font-size: 1.75rem;
+            margin-left: 1rem;
+        }
+    }
+    section.right{
+        position: relative;
+        img{
+            position: relative;
+            top: 37vh    ;
+            left: 10%;
+            width: 20vw;
+            height: 20vw;
+            
+            border-radius: 50%;
+            transition: all 0.2s ease;
+            &:hover{
+                transform: translate(0px , -5%);
+            }
+        }
+    }
+
+    section.table{
+        flex:3 1 500px;
+        table{
+            width: 90%;
+            margin-left: 2rem;
+            margin-top: 2rem;
+            border-collapse: collapse;
+            font-size: 1.2rem;
+        }
+        tr{
+            border-bottom: 2px solid black;
+            transition: all 0.2s ease;
+            &:hover{
+                
+                background-color:  rgb(255, 212, 172);;
+            }
+        }
+        td{
+            ol{
+                padding-left: 1rem;
+            }
+            padding: 1.5rem;
+        }
+    }
+    section.picture{
+        flex:1 1 600px;
+        position: relative;
+        img{
+            width: 30vw;
+            transition: all 0.2s ease;
+            &:hover{
+                transform:  translate(5% , 5%) scale(1.1);
+            }
+        }
+        div.OrangeRectangle {
+            background-color: $color;
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            width: 30vw;
+            height: 100%;
+            z-index: -1;
+        }
+    }
+    section.form{
+        margin-top: 1rem;
+        flex: 1 1 40vw;
+        form{
+            display: flex;
+            flex-direction: column;
+            div{
+                margin-left: 1rem;
+                display: flex;
+                label{
+                    padding-right: 0.5rem;
+                    font-size: 1.2rem;
+                }
+                input , textarea{
+                    width: 85%;
+                    font-size: 1.2rem;
+                    background-color: rgb(230, 149, 112);
+                    border: none;
+                    border-radius: 1%;
+                }
+            }
+            button{
+                margin-top: 1.5rem;
+                align-self: center;
+                font-size: 1.5rem;
+                cursor: pointer;
+                padding: 1rem;
+                color: white;
+                background-color: rgb(218, 133, 94);
+                border-radius: 8%;
+                border :none;
+            }
+        }
+    }
+    div.line{
+        width: 3px;
+
+        background-color: gray;
+    }
+    section.contact{
+        align-self: center;
+        margin-left: 2rem;
+        h2{
+            padding: 1rem 0rem;
+        }
+        flex: 1 1 40vw;
+    }
+}
+footer{
+    img{
+        position: relative;
+        padding: 1rem;
+        cursor: pointer;
+        width: 10vw;
+        height: 10vw;
+        transition: all 0.2s ease;
+        &:hover{
+            transform: translate(0px , -10%);
+        }
+    }
+}
